@@ -48,3 +48,8 @@ setTimeout(() => mohamed.send(`**-# Welcome To, Tree Center. :cloud: :wine_glass
 
 
 client.login(process.env.BOT_TOKEN); 
+client2.login(process.env.BOT_TOKEN2); 
+client3.login(process.env.BOT_TOKEN3); 
+client4.login(process.env.BOT_TOKEN4); 
+client5.login(process.env.BOT_TOKEN5); 
+
