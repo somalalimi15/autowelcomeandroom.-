@@ -28,7 +28,7 @@ client5.on('ready', () => {
 });
 
 client6.on('ready', () => {
-    client6.channels.find(c => c.id === '516304174229618695').join();
+    client6.channels.find(c => c.id === '516305060117086235').join();
 });
 
 client7.on('ready', () => {
@@ -36,7 +36,7 @@ client7.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("516302538367303711");
+const mohamed= member.guild.channels.get("516305090374664192");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send(`**-# Welcome To, Tree Center. :cloud: :wine_glass:  **`), 4000)        
