@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const mohamed = new Discord.Client();
+const client = new Discord.Client();
 
 
 
