@@ -32,7 +32,7 @@ client6.on('ready', () => {
 });
 
 client7.on('ready', () => {
-    client7.channels.find(c => c.id === '516304174229618695').join();
+    client7.channels.find(c => c.id === '516305090374664192').join();
 });
 
 client.on('guildMemberAdd', member => {
