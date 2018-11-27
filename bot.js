@@ -5,6 +5,25 @@ const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 
+client.on('ready', () => {
+    client.channels.find(c => c.id === '516304174229618695').join();
+});
+
+client2.on('ready', () => {
+    client2.channels.find(c => c.id === '516304553252093963').join();
+});
+
+client3.on('ready', () => {
+    client3.channels.find(c => c.id === '516304668427681804').join();
+});
+
+client4.on('ready', () => {
+    client4.channels.find(c => c.id === '516304918580035595').join();
+});
+
+client5.on('ready', () => {
+    client5.channels.find(c => c.id === '516304949035139082').join();
+});
 
 client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("516302538367303711");
