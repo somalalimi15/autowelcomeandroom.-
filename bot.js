@@ -8,11 +8,11 @@ const client6 = new Discord.Client();
 const client7 = new Discord.Client();
 
 client.on('ready', () => {
-    client.channels.find(c => c.id === '517347984925523991').join();
+    client.channels.find(c => c.id === '517348011571937301').join();
 });
 
 client2.on('ready', () => {
-    client2.channels.find(c => c.id === '517347984925523991').join();
+    client2.channels.find(c => c.id === '517348011571937301').join();
 });
 
 client3.on('ready', () => {
