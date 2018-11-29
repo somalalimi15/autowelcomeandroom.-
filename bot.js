@@ -8,11 +8,11 @@ const client6 = new Discord.Client();
 const client7 = new Discord.Client();
 
 client.on('ready', () => {
-    client.channels.find(c => c.id === '516304174229618695').join();
+    client.channels.find(c => c.id === '517347984925523991').join();
 });
 
 client2.on('ready', () => {
-    client2.channels.find(c => c.id === '516304553252093963').join();
+    client2.channels.find(c => c.id === '517347984925523991').join();
 });
 
 client3.on('ready', () => {
@@ -36,18 +36,18 @@ client7.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("516305090374664192");
+const mohamed= member.guild.channels.get("517338364220014603");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**-# Welcome To, Tree Center. :cloud: :wine_glass:  **`), 4000)        
+setTimeout(() => mohamed.send(`**-# Welcome To, Debra. :cloud: :wine_glass:  **`), 4000)        
 }
 });
 
 client2.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("516302538367303711");
+const mohamed= member.guild.channels.get("517338364220014603");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**-# Welcome To, Tree Center. :cloud: :wine_glass:  **`), 4000)        
+setTimeout(() => mohamed.send(`**-# Welcome To, Debra. :cloud: :wine_glass:  **`), 4000)        
 }
 });
 
